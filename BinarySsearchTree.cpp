@@ -165,3 +165,17 @@ char ch;
             x.insert();
             break;
         }
+    case '2':
+        {
+            x.inorder(x.ROOT);
+            break;
+        }
+        case '3':
+        {
+
+            x.preorder(x.ROOT);
+            break;
+        }
+        case '4':
+        {
+
